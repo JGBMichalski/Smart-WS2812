@@ -11,6 +11,14 @@
 
 ---
 
+## About This Project
+
+This program mainly consists of different animations that you can use on your LED array. The entire Sinric functionality is handled by the `Sinric Pro` library. The state logic can be confusing (especially if you are using the *Double Smart Light* configuration), but this appears to be the easiest way to be able to get the best functionality when using Alexa/Google Home.
+
+It should be noted that I first collected some of these animations years ago and have made modifications to them over time. I was unable to locate the original sources of some of the animations, so if you happen to be (or know) the original creators, please let me know and I'll happily credit them!
+
+---
+
 ## Dependencies
 
 ### Boards
@@ -55,3 +63,4 @@ The double smart light setup uses the same smart light that the previous section
 To use this mode, you must:
 1. Set `USE_PRESET_DEVICE` to `true`.
 2. Set the `PRESET_ID` to the preset device ID.
+
